@@ -6,10 +6,6 @@
 
 <br />
 
-[🔗 BucketDo 바로가기](https://3.38.150.0.sslip.io/)
-
-<br />
-
 ## 📖 프로젝트 소개
 
 > 프로젝트 기간 : 2025.02.19 ~ 2025.03.06
@@ -63,7 +59,7 @@
 
 ### CI / CD
 
-![CI / CD](assets/ci_cd.png)
+![CI / CD](assets/ci_cd_architecture.png.png)
 
 ### ERD 설계도
 
