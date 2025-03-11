@@ -42,6 +42,7 @@ jobs:
           echo "REDIS_PORT=${{ secrets.REDIS_PORT }}" >> .env
           echo "REDIS_PASSWORD=${{ secrets.REDIS_PASSWORD }}" >> .env
           echo "VITE_API_URL=${{ secrets.VITE_API_URL }}" >> .env
+          echo "DOCKER_REGISTRY=${{ secrets.DOCKER_REGISTRY }}" >> .env
 
       - name: echo .env
         run: cat .env
