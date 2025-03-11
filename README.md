@@ -59,7 +59,7 @@
 
 ### CI / CD
 
-![CI / CD](assets/ci_cd_architecture.png.png)
+![CI / CD](assets/ci_cd_architecture.png)
 
 ### ERD 설계도
 
