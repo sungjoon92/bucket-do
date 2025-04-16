@@ -8,6 +8,9 @@ services:
       - ${DATABASE_PORT}:3306
     env_file:
       - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DATABASE_NAME}
   redis-dev:
     container_name: redis-dev-container
     image: redis
